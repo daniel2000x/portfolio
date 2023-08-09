@@ -1,87 +1,508 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../static/bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="../static/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <link rel="icon" type="'imahe/png" href="../static/img/icone-card.png">
-    <title>Portfólio Daniel Rosa</title>
-    
-</head>
-<body>
-   <aside id='header'>
-    <section class="profile">
-        <img src="../static/img/daniel_frnte.jpeg" alt="Foto de Daniel">
-        <h1>Daniel Rosa</h1>
-        <div class="social-links mt-4 text-center">
-            <a target="_blank" href="https://www.linkedin.com/in/danielrosaprogramador/">
-                <i class="bi bi-linkedin"></i>
-            </a>
-            <a target="_blank" href="https://www.instagram.com/danielrosa_dev/">
-                <i class="bi bi-instagram"></i>
-            </a>
-            
-            <a target="_blank" href="https://github.com/daniel2000x">
-                <i class="bi bi-github"></i>
-            </a>
-            <a target="_blank" href="https://wa.me/5579998657281">
-                <i class="bi bi-whatsapp"></i>
-            </a>
-        </div>
 
-        <nav id='navbar' class="nav-menu">
-            <ul class="nav flex-column">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page"
-                   href="#"><i class="bi bi-house"></i>  Inicio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#"><i class="bi bi-person"></i> Sobre</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#"><i class="bi bi-list-check"></i> Habilidades</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="bi bi-file-earmark"></i> Currículo</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="bi bi-collection"></i> Portfólio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="bi bi-envelope"></i> Contato</a>
-                  </li>
-                
-                
-              </ul>
-        </nav>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../static/bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="../static/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="icon" type="'imahe/png" href="../static/img/icone-card.png">
+  <title>Portfólio Daniel Rosa</title>
+
+</head>
+
+<body>
+
+  <i class="bi bi-list menu-mobile"></i>
+
+  <aside id='header'>
+    <section class="profile">
+      <img src="../static/img/daniel_frnte.jpeg" alt="Foto de Daniel">
+      <h1>Daniel Rosa</h1>
+      <div class="social-links mt-4 text-center">
+        <a target="_blank" href="https://www.linkedin.com/in/danielrosaprogramador/">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a target="_blank" href="https://www.instagram.com/danielrosa_dev/">
+          <i class="bi bi-instagram"></i>
+        </a>
+
+        <a target="_blank" href="https://github.com/daniel2000x">
+          <i class="bi bi-github"></i>
+        </a>
+        <a target="_blank" href="https://wa.me/5579998657281">
+          <i class="bi bi-whatsapp"></i>
+        </a>
+      </div>
+
+      <nav id='navbar' class="nav-menu">
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#inicio"><i class="bi bi-house"></i> Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#sobre"><i class="bi bi-person"></i> Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#habilidades"><i class="bi bi-list-check"></i> Habilidades</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#curriculo"><i class="bi bi-file-earmark"></i> Currículo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio"><i class="bi bi-collection"></i> Portfólio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contato"><i class="bi bi-envelope"></i> Contato</a>
+          </li>
+
+
+        </ul>
+      </nav>
 
     </section>
 
-   </aside>
+  </aside>
 
-    <main id="main">
-      <section id="inicio" class="row m-0 p-0">
-        <div class="col-md-5 d-flex justify-content-center align-items-center flex-column">
-          <h2 class="text-white text-shaldow">Daniel Rosa</h2>
-          <span id="subtitle" class="text-white">Programador</span>
+  <main id="main">
+    <section id="inicio" class="row m-0 p-0">
+      <div class="col-md-5 d-flex justify-content-center align-items-center flex-column">
+        <h2 class="text-white text-shaldow">Daniel Rosa</h2>
+        <span id="subtitle" class="text-white">Programador Jr.</span>
+      </div>
+
+      <div class="col-md-7 d-flex justify-content-end align-items-end">
+        <div id="arraste" class="d-flex align-items-center">
+          <i class="bi bi-arrow-down text-while pe-2 fs-2" aria-hidden="" true></i>
+          <a href="#sobre">Arraste para mais</a>
         </div>
 
-        <div class="col-md-7 d-flex justify-content-end align-items-end">
-          <div id="arraste" class="d-flex align-items-center">
-            <i class="bi bi-arrow-down text-while pe-2 fs-2"
-            aria-hidden=""true></i>
-            <a href="">Arraste para mais</a>
+      </div>
+
+    </section>
+
+    <section class="container mt-5" id='sobre'>
+      <div class="row w-100">
+        <div class="col-md-12" data-anime="down">
+          <h2 class='pt-3'>Sobre</h2>
+          <p>Bem-vindo(a) ao meu portfólio, onde compartilho minha jornada como Programador Júnior e atualmente estou
+            estudando Análise e Desenvolvimento de Sistemas. Ao longo deste percurso inicial, tive a oportunidade de
+            mergulhar no mundo da tecnologia, aprendendo, aplicando e aprimorando minhas habilidades para criar soluções
+            eficientes e inovadoras.</p>
+        </div>
+      </div>
+
+      <div class="row mt-4">
+        <div class="col-md-4">
+          <img class="img-fluid shadow" src="../static/img/daniel_frnte.jpeg" alt="Foto do Daniel" data-anime="left">
+        </div>
+        <div class="col-md-8" data-anime="right">
+          <h3>Programador Jr.</h3>
+          <p>Atualmente trabalho na Defensoria Publica do Estado de Sergipe, trabalhando com JavaScript, no front-end e
+            no back-end, ReactJs, WordPress e utilizando banco de dados SQL, e DBevear </p>
+
+          <div class="row mt-3 mb-3">
+            <div class="col-md-6">
+              <ul class="list-group list-group-flush fs-5">
+                <li class="list-group-item">
+                  Niver: <span class="fw-lighter">08 de Julho de 1992</span>
+                </li>
+                <li class="list-group-item">
+                  Idade: <span class="fw-lighter">31 anos</span>
+                </li>
+                <li class="list-group-item">
+                  Cidade: <span class="fw-lighter">Aracaju</span>
+                </li>
+                <li class="list-group-item">
+                  Estado: <span class="fw-lighter">Sergipe</span>
+                </li>
+
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <ul class="list-group list-group-flush fs-5">
+                <li class="list-group-item">
+                  Hobby: <span class="fw-lighter">Musculação</span>
+                </li>
+                <li class="list-group-item">
+                  Site: <a href="https://instagram.com/danielrosa_dev" target="_blank"
+                    class="fw-lighter text-decoration-none link-dark">danielrosa_dev</a><span>
+                </li>
+                <li class="list-group-item">Trabalho: <a href="https://www.defensoria.se.def.br/" target="_blank"
+                    class="fw-lighter text-decoration-none link-dark">Defensoria Pública do Estado de Sergipe</a></li>
+                <li class="list-group-item"> Experiência <span class="fw-lighter"> 6 meses</span>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+
+          <p>Na área de tecnologia, cada dia é um convite para desvendar novas possibilidades. Adoro transformar linhas
+            de código em soluções tangíveis e estar sempre um passo à frente da inovação. Aqui, desafios são
+            oportunidades e a curiosidade é o motor que me impulsiona. Trabalhar com tecnologia é mais do que um
+            emprego, é uma paixão que me mantém inspirado e empolgado todos os dias.</p>
+
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <section class="mt-5 section-bg" id="habilidades">
+      <div class="container pb-5">
+        <h2 class="pt-5">Habilidades</h2>
+        <p>Em todo tempo como profissional de tecnologia eu adquiri algumas habilidades técnicas e não técnicas,
+          a maioria delas estão aqui, de acordo com a porcentagem de conhecimento que eu acredito ter em cada
+          uma delas.</p>
+        <div class="row">
+          <div class="col-md-6">
+            <p class='mt-3 mb-0'>HTML</p>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" data-anime="left"
+                data-anime="left" aria-valuemin="0" aria-valuemax="100">95%</div>
+            </div>
+            <p class="mt-3 mb-0">CSS</p>
+            <div class="progress">
+              <div class="progress-bar" data-anime="left" role="progressbar" style="width: 85%;" aria-valuenow="85"
+                aria-valuemin="0" aria-valuemax="100">85%</div>
+            </div>
+            <p class="mt-3 mb-0">JavaScript</p>
+            <div class="progress">
+              <div class="progress-bar" data-anime="left" role="progressbar" style="width: 80%;" aria-valuenow="80"
+                aria-valuemin="0" aria-valuemax="100">80%</div>
+            </div>
+            <p class="mt-3 mb-0">Python</p>
+            <div class="progress">
+              <div class="progress-bar" data-anime="left" role="progressbar" style="width: 80%;" aria-valuenow="80"
+                aria-valuemin="0" aria-valuemax="100">80%</div>
+            </div>
+            <p class="mt-3 mb-0">Java</p>
+            <div class="progress">
+              <div class="progress-bar" data-anime="left" role="progressbar" style="width: 70%;" aria-valuenow="70"
+                aria-valuemin="0" aria-valuemax="100">70%</div>
+            </div>
+            <p class="mt-3 mb-0">Git</p>
+            <div class="progress">
+              <div class="progress-bar" data-anime="left" role="progressbar" style="width: 98%;" aria-valuenow="98"
+                aria-valuemin="0" aria-valuemax="100">98%</div>
+            </div>
+            <p class="mt-3 mb-0">Deploy</p>
+            <div class="progress mb-3">
+              <div class="progress-bar" data-anime="left" role="progressbar" style="width: 70%;" aria-valuenow="70"
+                aria-valuemin="0" aria-valuemax="100">70%</div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <p class="mt-3 mb-0">Angular</p>
+            <div class="progress">
+              <div class="progress-bar" data-anime="left" role="progressbar" style="width: 80%;" aria-valuenow="80"
+                aria-valuemin="0" aria-valuemax="100">80%</div>
+            </div>
+            <p class="mt-3 mb-0">ReactJs</p>
+            <div class="progress">
+              <div class="progress-bar" data-anime="left" role="progressbar" style="width: 70%;" aria-valuenow="70"
+                aria-valuemin="0" aria-valuemax="100">70%</div>
+            </div>
+            <p class="mt-3 mb-0">NodeJs (Express)</p>
+            <div class="progress">
+              <div class="progress-bar" data-anime="left" role="progressbar" style="width: 85%;" aria-valuenow="85"
+                aria-valuemin="0" aria-valuemax="100">85%</div>
+            </div>
+            <p class="mt-3 mb-0">Flask</p>
+            <div class="progress">
+              <div class="progress-bar" data-anime="left" role="progressbar" style="width: 80%;" aria-valuenow="80"
+                aria-valuemin="0" aria-valuemax="100">80%</div>
+            </div>
+            <p class="mt-3 mb-0">Spring</p>
+            <div class="progress">
+              <div class="progress-bar" data-anime="left" role="progressbar" style="width: 70%;" aria-valuenow="70"
+                aria-valuemin="0" aria-valuemax="100">70%</div>
+            </div>
+            <p class="mt-3 mb-0">SQL</p>
+            <div class="progress">
+              <div class="progress-bar" data-anime="left" role="progressbar" style="width: 90%;" aria-valuenow="90"
+                aria-valuemin="0" aria-valuemax="100">90%</div>
+            </div>
+            <p class="mt-3 mb-0">NoSQL</p>
+            <div class="progress mb-3">
+              <div class="progress-bar" data-anime="left" role="progressbar" style="width: 75%;" aria-valuenow="75"
+                aria-valuemin="0" aria-valuemax="100">75%</div>
+            </div>
+          </div>
+        </div>
+
+        <hr class='w-50 me-auto ms-auto'>
+
+        <div class="row">
+          <div class="col-md-6">
+            <p class="mt-3 mb-0">Trabalho em equipe</p>
+            <div class="progress">
+              <div class="progress-bar" data-anime="left" role="progressbar" style="width: 95%;" aria-valuenow="95"
+                aria-valuemin="0" aria-valuemax="100">95%</div>
+            </div>
+
+            <p class="mt-3 mb-0">Proatividade</p>
+            <div class="progress">
+              <div class="progress-bar" data-anime="left" role="progressbar" style="width: 98%;" aria-valuenow="98"
+                aria-valuemin="0" aria-valuemax="100">98%</div>
+            </div>
+
+            <p class="mt-3 mb-0">Orientação a detalhes</p>
+            <div class="progress">
+              <div class="progress-bar" data-anime="left" role="progressbar" style="width: 85%;" aria-valuenow="85"
+                aria-valuemin="0" aria-valuemax="100">85%</div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <p class="mt-3 mb-0">Comunicação</p>
+            <div class="progress">
+              <div class="progress-bar" data-anime="left" role="progressbar" style="width: 95%;" aria-valuenow="95"
+                aria-valuemin="0" aria-valuemax="100">95%</div>
+            </div>
+
+            <p class="mt-3 mb-0">Empatia</p>
+            <div class="progress">
+              <div class="progress-bar" data-anime="left" role="progressbar" style="width: 85%;" aria-valuenow="85"
+                aria-valuemin="0" aria-valuemax="100">85%</div>
+            </div>
+
+            <p class="mt-3 mb-0">Comprometimento</p>
+            <div class="progress">
+              <div class="progress-bar" data-anime="left" role="progressbar" style="width: 98%;" aria-valuenow="98"
+                aria-valuemin="0" aria-valuemax="100">98%</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="mt-5 cv" id="curriculo">
+
+      <div class="container pb-5">
+        <h2 class="pt-3 pb-4">Currículo</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <h3 class='cv-title'>Educação</h3>
+
+            <div class='cv-item' data-anime="up">
+              <h4>Analise e Desenvolvimento de Sistemas</h4>
+              <h5>2021 - 2024</h5>
+              <p><em>Faculdade Estácio</em></p>
+              <p>Aluno do 4º período</p>
+
+            </div>
+
+            <div class='cv-item' data-anime="up">
+              <h4>Curso DevQuest</h4>
+              <h5>2022 - 2023</h5>
+              <p><em>Devquest</em></p>
+              <p>Curso voltado para desenvolvimento de programação full stack</p>
+
+            </div>
+
+            <div class='cv-item' data-anime="up">
+              <h4>Estagiario de T.I.</h4>
+              <h5>2022 - 2023</h5>
+              <p><em>Defensoria Pública do Estado de Sergipe</em>/p>
+              <p>Manutenção de computadores, formatação, instalação de programas, pacore office e internet, habilidade
+                em WordPress</p>
+            </div>
+
+
+
+          </div>
+          <!-- //<div class="container pb-5">
+          <h2 class="pt-3 pb-4">Currículo</h2>
+          <div class="row">
+            <div class="col-md-6">
+              <h3 class='cv-title'>Educação</h3> -->
+
+          <div class="col-md-6">
+
+            <h3 class='cv-title'>Profissional</h3>
+
+            <div class='cv-item' data-anime="up">
+              <h4>Programador Jr.</h4>
+              <h5>2023 - até o momento</h5>
+              <p><em>Defensoria Pública do Estado de Sergipe</em>/p>
+              <p>HTML, CSS, JavaScript, ReactJs, NodeJs, GitHub WordPress.</p>
+
+            </div>
+
+
+
+          </div>
+        </div>
+      </div>
+
+      </div>
+    </section>
+
+    <section id="portfolio" class="section-bg mt-5">
+      <div class="container pb-5 pt-5" data-anime="left">
+
+        <h2 class="pb-4">Portfólio</h2>
+        <div id="carouselPortfolio" class="carousel carousel-dark slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselPortfolio" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselPortfolio" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+
+
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+
+              <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="../static/img/tela-de-login.png" class="card-img-top" alt="tela de login">
+                    <div class="card-body">
+                      <h5 class="card-title">Tela de Login com autenticação</h5>
+                      <p class="card-text">Projeto criado com HTML, CSS e React Js.</p>
+                      <div class="d-flex justify-content-center">
+                        <a href="https://github.com/daniel2000x/cadastrodeferias" target='_blank'
+                          class="btn btn-outline-dark me-3"><i class="bi bi-github"></i></a>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="../static/img/the-last-of-us.png" class="card-img-top" alt="print da tela">
+                    <div class="card-body">
+                      <h5 class="card-title">The Last Of Us</h5>
+                      <p class="card-text">Projeto Criado com HTML, CSS e JavaScript</p>
+                      <div class="d-flex justify-content-center">
+                        <a href="https://daniel2000x.github.io/szpc-the-last-of-us/" target='_blank'
+                          class="btn btn-outline-dark me-3"><i class="bi bi-github"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="carousel-item" data-bs-interval="2000">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                  <div class="col">
+                    <div class="card h-100">
+                      <img src="../static/img/em_breve.jpg" class="card-img-top img-fluid w-100" alt="print do blog">
+                      <div class="card-body">
+                        <h5 class="card-title">Em breve</h5>
+
+
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col">
+                    <div class="card h-100">
+                      <img src="../static/img/em_breve.jpg" class="card-img-top img-fluid w-100" alt="print do blog">
+                      <div class="card-body">
+                        <h5 class="card-title">Em Breve</h5>
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100">
+                      <img src="../static/img/em_breve.jpg" class="card-img-top img-fluid w-100" alt="print do blog">
+                      <div class="card-body">
+                        <h5 class="card-title">Em Breve</h5>
+
+
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselPortfolio"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselPortfolio"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselPortfolio" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselPortfolio" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+      </div>
+
+      </div>
+    </section>
+
+    <section class="pt-5 pb-5" id="contato">
+
+      <div class="container mb-5">
+        <h2 class="pt-3 pb-3">Contato</h2>
+
+        <div class="row">
+          <div class="col-md-5" data-anime="up">
+            <div class="card p-5 shadow border-0">
+              <div class="endereco">
+                <h4><i class="bi bi-geo-alt"></i> Localização:</h4>
+                <p>Sou de Aracaju, SE</p>
+              </div>
+              <div class="email">
+                <h4><i class="bi bi-envelope"></i> Email:</h4>
+                <p>danielrosa_1@hotmail.com</p>
+              </div>
+
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.9245542300205!2d-37.075195924000894!3d-10.969067322774373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71ab17203900ccb%3A0x1e54624900b52c7c!2sResidencial%20Ponta%20D&#39;alva!5e0!3m2!1spt-BR!2sbr!4v1691505318417!5m2!1spt-BR!2sbr"
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade" class="w-100"></iframe>
+
+            </div>
           </div>
           
+
+              </form>
+            </div>
+          </div>
         </div>
+      </div>
 
-      </section>
-    </main>
+    </section>
+  </main>
+
+  <footer id="footer">
+    <div class="container">
+      <div class="text-center">
+        &copy; Copyright <strong>Daniel Rosa Programador Jr.</strong>
+      </div>
+    </div>
+
+  </footer>
 
 
-    <script src="../static/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="../static/script.js"></script>
+
+
+  <script src="../static/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../static/script.js"></script>
 </body>
+
 </html>
